@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+  </style>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contact Us</title>
+</head>
+
+<body>
+  
+<!-- modal starts -->
+<div class="modal modal fade "  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content modal1">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact me!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"> Your Name</label>
+            <input type="text" class="form-control" id="exampletext" aria-describedby="textHelp" placeholder="Enter your name here">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Your Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Your Phone</label>
+            <input type="text" class="form-control" id="exampletext" aria-describedby="textHelp" placeholder="Enter your phone number here">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Describe what you want to contact me for here</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
+          </div>
+         
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal ends -->
+
+  <div id="container">
+    <div id="main">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/images/logo.jpeg" alt="..."
+                class="img-responsive logo rounded-circle"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0  text-center">
+                <li class="nav-item">
+                  <a class="nav-link  navbar1" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item p">
+                  <a class="nav-link navbar1" href="#">Certificates</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle navbar1" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu navbar2 drop" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item drop1" href="#">Web</a></li>
+                    <li><a class="dropdown-item drop1" href="#">Programming Projects</a></li>
+                    <li><a class="dropdown-item drop1" href="#">Calculator</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item drop1" href="www.google.com">Google</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar1" href="contactUs.html" tabindex="-1" aria-disabled="true">Contact Us</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+
+                <button class="btn btn-outline-success" type="submit">Admin</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="alert  alert-secondary" role="alert">
+          <marquee class="para1">
+            <b>Assalam Alaikum!</b> When to use iterative development? You should use iterative development only on
+            projects if you want to succeed.
+          </marquee>
+          <div class="d-flex justify-content-center">
+            <img src="/images/logo.jpeg" alt="..." class="img-responsive logo2 rounded-circle">
+          </div>
+          <div class="banner-area mt-3">
+            <h2> I am a <span class="type"></span></h2>
+          </div>
+          <script src="typed.js"></script>
+
+          <script>
+            var type = new Typed(".type", {
+              strings: ["Designer",
+                "Developer",
+                "Freelancer",
+                "Data Scientist"
+              ],
+              typeSpeed: 30,
+              backSpeed: 30,
+              // smartBackspace: true, // this is a default
+              loop: true
+            });
+          </script>
+          <div class="d-flex justify-content-center para">
+            <p>Everyone’s talking about coding, but where do you start? This path will give you an introduction to the
+              world of code and basic concepts.
+              <br>
+              Code With Mz is my attempt to teach basics and those coding techniques to people in short time which took
+              me ages to learn.
+            </p>
+            </p>
+          </div>
+          <div class="d-flex justify-content-center mb-4">
+            <button type="button" class="btn btn-danger ">Facebook</button>
+            <button type="button" class="red-btn btn btn-success">GitHub</button>
+            <button type="button" class="btn btn-primary">LinkeiIn</button>
+          </div>
+          <div class="contact">
+            <h3 class="fw-bold">Contact Us</h3>
+          </div>
+          <!-- side1 -->
+          <div class=" d-flex justify-content-center flex-row flex-wrap contact-mid">
+            <div class="side1">
+              <div>
+                <h4 class="info-h "> Information</h4>
+                <h4 class="info-g">About</h4>
+                <p class="para">Hi, I am baccalaureate from Superior University. My speciality is full website strategy,
+                  design and development, making pixel magic in photoshop and turning it into beautiful, semantic HTML &
+                  CSS. My interests, however, extend beyond the
+                  web and I love helping people with branding, print design and marketing strategy.</p>
+              </div>
+              <div>
+                <h3 class="info-g">Contact Me Directly</h3>
+                <button type="button" class="btn btn-contact btn-primary" data-bs-toggle= "modal" data-bs-target="#exampleModal">Contact Me</button>
+                  <!-- My Contact: 03224013259 -->
+                </p>
+              </div>
+            </div>
+            <!-- side2 -->
+            <div class="side2 ">
+              <h2 class="info-h"> Look What I Can Do</h2>
+              <div class=" d-flex justify-content-center flex-row flex-wrap">
+                <div class="side3 para">
+                  <div>
+                    <i class="fa fa-plus"></i>HTML<br>
+                    <i class="fa fa-plus"></i>CSS/BOOTSTRAP <br>
+                    <i class="fa fa-plus"></i>Web Design <br>
+                    <i class="fa fa-plus"></i>Javascript<br>
+
+                  </div>
+                </div>
+                 <div class="side3 para">    
+                  <!-- mx-remove for responsive -->                 
+                  <div>
+                    <i class="fa fa-plus"></i>PHP<br>
+                    <i class="fa fa-plus"></i>SQL<br>
+                    <i class="fa fa-plus"></i>WordPress<br>
+                    <i class="fa fa-plus"></i>GraphicsProfessional Video
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+  </main>
+  </div>
+  </div>
+  <!-- <footer class="footer"> -->
+  <div class="container-fluid footer">
+    <div class="mt-3 ">
+      <h3 class="f">Moazam Ansari</h3>
+    </div>
+    <div>
+      <center>
+        <ul class="list-unstyled list-inline list-social mb-6 mb-md-0 ">
+          <li class="list-inline-item list-social-item mr-3 ">
+            <a href="#" class="text-decoration-none " target="_blank ">
+              <img src="images/F.png " class="list-social-icon Icon2 " alt="... ">
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item mr-3 ">
+            <a href="#" class="text-decoration-none " target="_blank ">
+              <img src="images/Insta.png " class="list-social-icon Icon2 " alt="... ">
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item mr-3 ">
+            <a href="#" class="text-decoration-none " target="_blank ">
+              <img src="images/G.png " class="list-social-icon Icon2 " alt="... ">
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item ">
+            <a href="#" class="text-decoration-none " target="_blank ">
+              <img src="images/Lin.png " class="list-social-icon Icon2 " alt="... ">
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item ">
+            <a href="#" class="text-decoration-none " target="_blank ">
+              <img src="images/T.png " class="list-social-icon Icon2 " alt="... ">
+            </a>
+          </li>
+        </ul>
+      </center>
+      <center>
+        <p class="text-gray-700 mb-2 mt-3 " style="color: rgb(255, 255, 255); ">
+          Warm Welcome to all viewers.<br>
+        </p>
+      </center>
+      <center><span class="text-light fw-bold">Contact No: 03224013259 <br>
+          Email ID: moazamansari.321@gmail.com</span></center>
+    </div>
+  </div>
+  <!-- </footer> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
