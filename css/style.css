@@ -277,3 +277,11 @@ div.contact{
     background-color:rgb(33,37,41);
     color:#a1a7ad;
 }
+.btn-success{
+    width: 170px;
+}
+@media screen and (max-width: 364px) {
+    .btn-success{
+        width: 90px;
+    }
+  }
